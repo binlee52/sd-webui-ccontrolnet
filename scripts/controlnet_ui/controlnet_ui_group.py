@@ -546,7 +546,7 @@ class ControlNetUiGroup(object):
                 label="Control Weight",
                 value=self.default_unit.weight,
                 minimum=0.0,
-                maximum=2.0,
+                maximum=3.0,
                 step=0.05,
                 elem_id=f"{elem_id_tabname}_{tabname}_controlnet_control_weight_slider",
                 elem_classes="controlnet_control_weight_slider",
