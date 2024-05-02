@@ -98,7 +98,7 @@ class AdvancedWeightControl:
                 self.weight_composition = gr.Slider(
                     label="Composition Weight",
                     minimum=0,
-                    maximum=3.0,
+                    maximum=2.0,
                     value=1.0,
                     step=0.01,
                     visible=False,
